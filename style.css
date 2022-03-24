@@ -60,6 +60,13 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+.ex-7-img{
+    filter: sepia(0%) saturate(50%);
+    transition: all 1s linear;
+}
+.ex-7-img:hover{
+    filter: sepia(100%) saturate(100%);
+}
 
 .ex-9-img {
     margin: 50px 100px;
