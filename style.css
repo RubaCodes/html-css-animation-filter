@@ -171,12 +171,14 @@
     height: 20px;
 }
 
+/* ANIMAZIONE 12 */
+
 
 .ex-12-button:hover >.ex-12-top-white{ 
-    animation: slide-top 2s linear;
+    animation: slide-top-12 2s linear;
     animation-iteration-count: 1;
 }
-@keyframes slide-top {
+@keyframes slide-top-12 {
     0%{
         top: -10px;
         left: 10%;
@@ -191,10 +193,10 @@
     }  
 }
 .ex-12-button:hover >.ex-12-bottom-white{ 
-    animation: slide-bottom 2s linear;
+    animation: slide-bottom-12 2s linear;
     animation-iteration-count: 1;
 }
-@keyframes slide-bottom {
+@keyframes slide-bottom-12 {
     0%{
         bottom: -10px;
         right: 20%;
@@ -208,3 +210,64 @@
         right: 20%;
     } 
 }
+/* ANIMAZIONE 13 */
+.ex-13-button:hover >.ex-13-top-white{ 
+    animation: slide-top-13 2s linear;
+    animation-iteration-count: 1;
+}
+@keyframes slide-top-13 {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+    20%{
+        top: -10px;
+        left:85%;
+    }
+    40%{
+        top: 55px;
+        left: 85%;
+    }  
+    60%{
+        top: 55px;
+        left: -10%;
+    }  
+    80%{
+        top: -10px;
+        left: -10%;
+    }  
+    100%{
+        top: -10px;
+        left: 10%;
+    }  
+}
+ .ex-13-button:hover >.ex-13-bottom-white{ 
+    animation: slide-bottom-13 2s linear;
+    animation-iteration-count: 1;
+}
+@keyframes slide-bottom-13 {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+    20%{
+        bottom: -10px;
+        right: 80%;
+    }
+    40%{
+        bottom: 55px;
+        right: 80%;
+    }
+    60%{
+        bottom: 55px;
+        right: -10%;
+    }
+    80%{
+        bottom: -10px;
+        right: -10%;
+    }
+    100%{
+        bottom: -10px;
+        right: 20%;
+    } 
+} 
