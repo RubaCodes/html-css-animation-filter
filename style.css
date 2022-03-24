@@ -47,6 +47,7 @@
     transition: width 1s linear; 
     /* transition: margin 1s linear; */
 }
+/* da fare */
 .ex-5-square:hover{
     height: 100px;
     width: 100px;
@@ -60,6 +61,7 @@
 .ex-6-img:hover{
     filter: grayscale(100%);
 }
+
 .ex-7-img{
     filter: sepia(0%) saturate(50%);
     transition: all 1s linear;
@@ -67,6 +69,7 @@
 .ex-7-img:hover{
     filter: sepia(100%) saturate(100%);
 }
+
 .ex-8-img{
     filter: sepia(0%) saturate(50%);
     border-radius: 0px;
@@ -76,11 +79,23 @@
     filter: sepia(100%) saturate(100%);
     border-radius: 20px;
 }
-
+/* /da fare */
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
+    filter: sepia(0%) saturate(50%);
+    border-radius: 0px;
+    scale: 1.0;
+    transition: all 1s linear;
+    
 }
+.ex-9-img:hover{
+    filter: sepia(100%) saturate(100%);
+    border-radius: 20px;
+    scale: 1.5;
+}
+
+
 .ex-10-icon {
     font-size: 60px;
 }
